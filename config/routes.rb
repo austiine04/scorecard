@@ -3,4 +3,8 @@ Rails.application.routes.draw do
   devise_scope :user do
     root to: 'devise/sessions#new'
   end
+
+  authenticate :user do
+    resources :home
+  end
 end

@@ -7,6 +7,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'dotenv-rails', :groups => [:development]
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'byebug'
