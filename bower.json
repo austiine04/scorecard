@@ -1,0 +1,23 @@
+{
+  "name": "scorecard",
+  "homepage": "https://github.com/austiine04/scorecard",
+  "authors": [
+    "austiine04 <austiine04@gmail.com>"
+  ],
+  "description": "community scorecard project",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flat-ui": "2.2.2"
+  }
+}
