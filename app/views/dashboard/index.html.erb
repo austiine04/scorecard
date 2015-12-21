@@ -1,1 +1,10 @@
-Welcome to the scorecard project   <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+<div class="row clearfix">
+  <%= link_to(destroy_user_session_path, :method => :delete) do %>
+    <span class='logout btn btn-primary'> Logout </span>
+  <% end %>
+</div>
+
+<div class="header">
+  <h6>Welcome to the community scorecard project</h6>
+  <hr />
+</div>

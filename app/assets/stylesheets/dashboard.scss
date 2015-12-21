@@ -1,0 +1,16 @@
+@import "flat-ui/dist/css/vendor/bootstrap.min";
+
+.logout {
+  margin-top: 2%;
+  display: block;
+  float: right;
+}
+
+.header {
+  @extend .row;
+  clearfix: none;
+}
+
+.clearfix {
+  overflow: auto;
+}
