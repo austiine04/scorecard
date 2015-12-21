@@ -6,6 +6,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
+gem 'dotenv-rails', :groups => [:development]
 
 group :development, :test do
   gem 'byebug'
