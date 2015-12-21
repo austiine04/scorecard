@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   end
 
   authenticate :user do
-    resources :home
+    resources :dashboard, only: [:index]
   end
 end
