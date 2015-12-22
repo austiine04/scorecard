@@ -7,7 +7,7 @@
   },
   "private": true,
   "scripts": {
-    "postinstall": "bundle exec rake bower:install && bundle exec rake assets:precompile"
+    "postinstall": "cp bower.json vendor/assets && cd ./vendor/assets && bower install"
   },
   "dependencies": {
     "bower": "1.4.1"
